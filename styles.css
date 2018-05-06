@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: #E91E63;
+    display: grid;
+    grid-template-columns: 210px minmax(300px, 1fr) 200px;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid red;
+}
+h1 {
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 40px;
+    margin: 0;
+    margin-left: 10px;
+}
+.avatar {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+}
+.avatar img{
+    width: 100%;
+}
+.header-logo,
+.profile {
+    display: flex;
+    align-items: center;
+}
+.header-logo {
+
+}
+.profile p {
+    margin: 0;
+}
+.search-input {
+    width: 100%;
+    text-align: center;
+}
+input {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 20px;
+}
