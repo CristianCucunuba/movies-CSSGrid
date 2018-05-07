@@ -1,23 +1,23 @@
 body {
     margin: 0;
+    font-family: 'Lato', cursive;
 }
 .navbar {
-    background-color: #E91E63;
+    background-color: #061826;
     display: grid;
     grid-template-columns: 210px minmax(300px, 1fr) 200px;
     align-items: center;
-    justify-items: center;
-    border: 1px solid red;
+    padding: 15px 50px;
 }
 h1 {
     font-family: 'Lobster', cursive;
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     margin: 0;
     margin-left: 10px;
 }
 .avatar {
-    margin: 0;
+    margin: 0 10px;
     width: 60px;
     height: 60px;
 }
@@ -28,9 +28,8 @@ h1 {
 .profile {
     display: flex;
     align-items: center;
-}
-.header-logo {
-
+    color: white;
+    cursor: pointer;
 }
 .profile p {
     margin: 0;
@@ -41,8 +40,18 @@ h1 {
 }
 input {
     width: 50%;
-    height: 30px;
+    height: 40px;
     border-radius: 5px;
     border: none;
     padding-left: 20px;
+    font-size: 15px;
+}
+.profile img {
+    border-radius: 50%;
+    border: 2px dashed white;
+}
+.profile p {
+    font-size: 18px;
+    font-weight: bold;
+
 }
