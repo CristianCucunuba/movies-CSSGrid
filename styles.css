@@ -95,9 +95,50 @@ main {
 }
 .content {
     grid-area: content;
-    border: 1px solid red;
+    padding: 15px;
 }
-footer {
-    grid-area: footer;
-    border: 1px solid red;
+.movie {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+.movie img{
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: -165px;
+    background: rgba(0, 0, 0, .8);
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: white;
+}
+.overlay h2 {
+    margin-top: 12px;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.info h2 {
+    margin: 0;
+}
+.info a {
+    border: 2px solid #ff4a62;
+    padding: 10px;
+    text-decoration: none;
+    color: #ff4a62;
+    text-transform: uppercase;
+}
+.list-of-movies {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: space-evenly;
 }
